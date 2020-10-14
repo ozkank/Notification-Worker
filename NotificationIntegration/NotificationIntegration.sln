@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{EFA1A7D7-CC7F-4B18-860E-7D3D0F7B48C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A0AF7E3F-561B-4051-8FB0-DDD0644AC09B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{FEF0C6C8-F15A-4A24-9322-2C0230751B99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{832A19E6-97A2-4836-BA5F-CA468016D096}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App.Services", "App.Services", "{7C2170F9-A684-483A-9F2A-A0DD4D90E83F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{9BB4D0D6-61D7-4107-AC9C-9576B564B0CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationIntegration.API", "Infrastructure\App.Services\NotificationIntegration.API.csproj", "{49E0F92C-6180-402A-8F04-4F7E808488B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationIntegration.Domain.Object", "Core\Domain\NotificationIntegration.Domain.Object\NotificationIntegration.Domain.Object.csproj", "{FB869DA3-2A46-46FE-B4B0-25646E42A511}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationIntegration.Domain.Services", "Core\Service\NotificationIntegration.Domain.Services\NotificationIntegration.Domain.Services.csproj", "{D03B11A0-7D09-4547-AA75-E59D37ABBE11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationIntegration.Domain.Services.Interfaces", "Core\Service\NotificationIntegration.Domain.Services.Interfaces\NotificationIntegration.Domain.Services.Interfaces.csproj", "{92B63DFB-F2B8-4962-A0E9-8C4906DF5F40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationIntegration.Infrastructure.Repositories", "Infrastructure\Repositories\NotificationIntegration.Infrastructure.Repositories\NotificationIntegration.Infrastructure.Repositories.csproj", "{827EA94D-865A-4F88-B575-BFEF02E34F5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{85D3A6E1-79D3-4BF6-94FF-E6B160ED1866}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoticationIntegration.Infrastructure.Service", "Infrastructure\Service\NoticationIntegration.Infrastructure.Service\NoticationIntegration.Infrastructure.Service.csproj", "{0BC3F090-B9B3-4CD6-8C48-339F0465C900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49E0F92C-6180-402A-8F04-4F7E808488B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E0F92C-6180-402A-8F04-4F7E808488B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E0F92C-6180-402A-8F04-4F7E808488B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E0F92C-6180-402A-8F04-4F7E808488B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB869DA3-2A46-46FE-B4B0-25646E42A511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB869DA3-2A46-46FE-B4B0-25646E42A511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB869DA3-2A46-46FE-B4B0-25646E42A511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB869DA3-2A46-46FE-B4B0-25646E42A511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03B11A0-7D09-4547-AA75-E59D37ABBE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03B11A0-7D09-4547-AA75-E59D37ABBE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03B11A0-7D09-4547-AA75-E59D37ABBE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03B11A0-7D09-4547-AA75-E59D37ABBE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B63DFB-F2B8-4962-A0E9-8C4906DF5F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B63DFB-F2B8-4962-A0E9-8C4906DF5F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B63DFB-F2B8-4962-A0E9-8C4906DF5F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B63DFB-F2B8-4962-A0E9-8C4906DF5F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827EA94D-865A-4F88-B575-BFEF02E34F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827EA94D-865A-4F88-B575-BFEF02E34F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827EA94D-865A-4F88-B575-BFEF02E34F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827EA94D-865A-4F88-B575-BFEF02E34F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC3F090-B9B3-4CD6-8C48-339F0465C900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC3F090-B9B3-4CD6-8C48-339F0465C900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC3F090-B9B3-4CD6-8C48-339F0465C900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC3F090-B9B3-4CD6-8C48-339F0465C900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0AF7E3F-561B-4051-8FB0-DDD0644AC09B} = {EFA1A7D7-CC7F-4B18-860E-7D3D0F7B48C3}
+		{FEF0C6C8-F15A-4A24-9322-2C0230751B99} = {EFA1A7D7-CC7F-4B18-860E-7D3D0F7B48C3}
+		{7C2170F9-A684-483A-9F2A-A0DD4D90E83F} = {832A19E6-97A2-4836-BA5F-CA468016D096}
+		{9BB4D0D6-61D7-4107-AC9C-9576B564B0CD} = {832A19E6-97A2-4836-BA5F-CA468016D096}
+		{49E0F92C-6180-402A-8F04-4F7E808488B8} = {7C2170F9-A684-483A-9F2A-A0DD4D90E83F}
+		{FB869DA3-2A46-46FE-B4B0-25646E42A511} = {A0AF7E3F-561B-4051-8FB0-DDD0644AC09B}
+		{D03B11A0-7D09-4547-AA75-E59D37ABBE11} = {FEF0C6C8-F15A-4A24-9322-2C0230751B99}
+		{92B63DFB-F2B8-4962-A0E9-8C4906DF5F40} = {FEF0C6C8-F15A-4A24-9322-2C0230751B99}
+		{827EA94D-865A-4F88-B575-BFEF02E34F5D} = {9BB4D0D6-61D7-4107-AC9C-9576B564B0CD}
+		{85D3A6E1-79D3-4BF6-94FF-E6B160ED1866} = {832A19E6-97A2-4836-BA5F-CA468016D096}
+		{0BC3F090-B9B3-4CD6-8C48-339F0465C900} = {85D3A6E1-79D3-4BF6-94FF-E6B160ED1866}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8845579-91A2-4C91-A075-29574A96A930}
+	EndGlobalSection
+EndGlobal

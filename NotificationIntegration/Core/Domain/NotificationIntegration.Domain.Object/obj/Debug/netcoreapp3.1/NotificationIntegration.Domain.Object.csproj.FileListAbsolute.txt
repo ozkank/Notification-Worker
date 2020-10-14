@@ -1,0 +1,7 @@
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Domain\NotificationIntegration.Domain.Object\bin\Debug\netcoreapp3.1\NotificationIntegration.Domain.Object.deps.json
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Domain\NotificationIntegration.Domain.Object\bin\Debug\netcoreapp3.1\NotificationIntegration.Domain.Object.dll
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Domain\NotificationIntegration.Domain.Object\bin\Debug\netcoreapp3.1\NotificationIntegration.Domain.Object.pdb
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Domain\NotificationIntegration.Domain.Object\obj\Debug\netcoreapp3.1\NotificationIntegration.Domain.Object.csproj.CoreCompileInputs.cache
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Domain\NotificationIntegration.Domain.Object\obj\Debug\netcoreapp3.1\NotificationIntegration.Domain.Object.dll
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Domain\NotificationIntegration.Domain.Object\obj\Debug\netcoreapp3.1\NotificationIntegration.Domain.Object.pdb
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Domain\NotificationIntegration.Domain.Object\obj\Debug\netcoreapp3.1\NotificationIntegration.Domain.Object.csprojAssemblyReference.cache

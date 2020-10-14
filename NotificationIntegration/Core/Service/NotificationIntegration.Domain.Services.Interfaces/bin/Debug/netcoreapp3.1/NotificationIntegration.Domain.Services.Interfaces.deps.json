@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NotificationIntegration.Domain.Services.Interfaces/1.0.0": {
+        "runtime": {
+          "NotificationIntegration.Domain.Services.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NotificationIntegration.Domain.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

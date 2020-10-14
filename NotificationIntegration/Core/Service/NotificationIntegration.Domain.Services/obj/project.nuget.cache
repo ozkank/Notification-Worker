@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZLH1Ypp7iOCDx0jbMqrfFM6bpKOjB5Za/38s5HjjUESgGi1Ns0/7o9baE/E42U3nXEajXgqCTDmeKhg9pscxBg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services\\NotificationIntegration.Domain.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ozkan.koylu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\ozkan.koylu\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
+    "C:\\Users\\ozkan.koylu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

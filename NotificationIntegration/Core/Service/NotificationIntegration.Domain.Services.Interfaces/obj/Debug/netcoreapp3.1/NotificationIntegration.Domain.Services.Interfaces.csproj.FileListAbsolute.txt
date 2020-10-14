@@ -1,0 +1,6 @@
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services.Interfaces\bin\Debug\netcoreapp3.1\NotificationIntegration.Domain.Services.Interfaces.deps.json
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services.Interfaces\bin\Debug\netcoreapp3.1\NotificationIntegration.Domain.Services.Interfaces.dll
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services.Interfaces\bin\Debug\netcoreapp3.1\NotificationIntegration.Domain.Services.Interfaces.pdb
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services.Interfaces\obj\Debug\netcoreapp3.1\NotificationIntegration.Domain.Services.Interfaces.csproj.CoreCompileInputs.cache
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services.Interfaces\obj\Debug\netcoreapp3.1\NotificationIntegration.Domain.Services.Interfaces.dll
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services.Interfaces\obj\Debug\netcoreapp3.1\NotificationIntegration.Domain.Services.Interfaces.pdb

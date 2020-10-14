@@ -1,0 +1,192 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
+          "Microsoft.Extensions.Primitives": "3.1.9"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "NotificationIntegration.Domain.Object/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NotificationIntegration.Domain.Object.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NotificationIntegration.Domain.Object.dll": {}
+        }
+      },
+      "NotificationIntegration.Domain.Services.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NotificationIntegration.Domain.Services.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NotificationIntegration.Domain.Services.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+      "sha512": "8PkcaPwiTPOhqshoY4+rQUbz86X6YpLDLUqXOezh7L2A3pgpBmeBBByYIffofBlvQxDdQ0zB2DkWjbZWyCxRWg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/3.1.9": {
+      "sha512": "EIb3G1DL+Rl9MvJR7LjI1wCy2nfTN4y8MflbOftn1HLYQBj/Rwl8kUbGTrSFE01c99Wm4ETjWVsjqKcpFvhPng==",
+      "type": "package",
+      "path": "microsoft.extensions.options/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.3.1.9.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.1.9": {
+      "sha512": "IrHecH0eGG7/XoeEtv++oLg/sJHRNyeCqlA9RhAo6ig4GpOTjtDr32sBMYuuLtUq8ALahneWkrOzoBAwJ4L4iA==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "NotificationIntegration.Domain.Object/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/NotificationIntegration.Domain.Object/NotificationIntegration.Domain.Object.csproj",
+      "msbuildProject": "../../Domain/NotificationIntegration.Domain.Object/NotificationIntegration.Domain.Object.csproj"
+    },
+    "NotificationIntegration.Domain.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../NotificationIntegration.Domain.Services.Interfaces/NotificationIntegration.Domain.Services.Interfaces.csproj",
+      "msbuildProject": "../NotificationIntegration.Domain.Services.Interfaces/NotificationIntegration.Domain.Services.Interfaces.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Extensions.Options >= 3.1.9",
+      "NotificationIntegration.Domain.Object >= 1.0.0",
+      "NotificationIntegration.Domain.Services.Interfaces >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ozkan.koylu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services\\NotificationIntegration.Domain.Services.csproj",
+      "projectName": "NotificationIntegration.Domain.Services",
+      "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services\\NotificationIntegration.Domain.Services.csproj",
+      "packagesPath": "C:\\Users\\ozkan.koylu\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ozkan.koylu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/lelydevops/T4CNextAPI/_packaging/t4c-classic/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Domain\\NotificationIntegration.Domain.Object\\NotificationIntegration.Domain.Object.csproj": {
+              "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Domain\\NotificationIntegration.Domain.Object\\NotificationIntegration.Domain.Object.csproj"
+            },
+            "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services.Interfaces\\NotificationIntegration.Domain.Services.Interfaces.csproj": {
+              "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services.Interfaces\\NotificationIntegration.Domain.Services.Interfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": {
+            "target": "Package",
+            "version": "[3.1.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
