@@ -52,3 +52,6 @@ C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Infrastruc
 C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Infrastructure\App.Services\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
 C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Infrastructure\App.Services\bin\Debug\netcoreapp3.1\NotificationIntegration.Infrastructure.Repositories.dll
 C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Infrastructure\App.Services\bin\Debug\netcoreapp3.1\NotificationIntegration.Infrastructure.Repositories.pdb
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Infrastructure\App.Services\obj\Debug\netcoreapp3.1\NotificationIntegration.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Infrastructure\App.Services\bin\Debug\netcoreapp3.1\Notification.Consumer.API\obj\Notification.Consumer.API.csproj.nuget.dgspec.json
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Infrastructure\App.Services\bin\Debug\netcoreapp3.1\Notification.Consumer.API\obj\project.assets.json

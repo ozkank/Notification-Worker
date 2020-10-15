@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Domain\\NotificationIntegration.Domain.Object\\NotificationIntegration.Domain.Object.csproj",
         "projectName": "NotificationIntegration.Domain.Object",
         "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Domain\\NotificationIntegration.Domain.Object\\NotificationIntegration.Domain.Object.csproj",
-        "packagesPath": "C:\\Users\\ozkan.koylu\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Domain\\NotificationIntegration.Domain.Object\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ozkan.koylu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ozkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/lelydevops/T4CNextAPI/_packaging/t4c-classic/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -38,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -63,11 +68,11 @@
         "projectUniqueName": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services.Interfaces\\NotificationIntegration.Domain.Services.Interfaces.csproj",
         "projectName": "NotificationIntegration.Domain.Services.Interfaces",
         "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services.Interfaces\\NotificationIntegration.Domain.Services.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\ozkan.koylu\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ozkan.koylu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ozkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,12 +80,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/lelydevops/T4CNextAPI/_packaging/t4c-classic/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Domain\\NotificationIntegration.Domain.Object\\NotificationIntegration.Domain.Object.csproj": {
+                "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Domain\\NotificationIntegration.Domain.Object\\NotificationIntegration.Domain.Object.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -91,6 +99,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -106,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -116,11 +130,11 @@
         "projectUniqueName": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services\\NotificationIntegration.Domain.Services.csproj",
         "projectName": "NotificationIntegration.Domain.Services",
         "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services\\NotificationIntegration.Domain.Services.csproj",
-        "packagesPath": "C:\\Users\\ozkan.koylu\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ozkan.koylu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ozkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,8 +142,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/lelydevops/T4CNextAPI/_packaging/t4c-classic/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -172,7 +185,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -182,11 +195,11 @@
         "projectUniqueName": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Infrastructure\\App.Services\\NotificationIntegration.API.csproj",
         "projectName": "NotificationIntegration.API",
         "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Infrastructure\\App.Services\\NotificationIntegration.API.csproj",
-        "packagesPath": "C:\\Users\\ozkan.koylu\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Infrastructure\\App.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ozkan.koylu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ozkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -194,8 +207,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/lelydevops/T4CNextAPI/_packaging/t4c-classic/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -255,7 +267,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -265,11 +277,11 @@
         "projectUniqueName": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Infrastructure\\Repositories\\NotificationIntegration.Infrastructure.Repositories\\NotificationIntegration.Infrastructure.Repositories.csproj",
         "projectName": "NotificationIntegration.Infrastructure.Repositories",
         "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Infrastructure\\Repositories\\NotificationIntegration.Infrastructure.Repositories\\NotificationIntegration.Infrastructure.Repositories.csproj",
-        "packagesPath": "C:\\Users\\ozkan.koylu\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Infrastructure\\Repositories\\NotificationIntegration.Infrastructure.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ozkan.koylu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ozkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -277,14 +289,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/lelydevops/T4CNextAPI/_packaging/t4c-classic/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
               "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Domain\\NotificationIntegration.Domain.Object\\NotificationIntegration.Domain.Object.csproj": {
                 "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Domain\\NotificationIntegration.Domain.Object\\NotificationIntegration.Domain.Object.csproj"
+              },
+              "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services.Interfaces\\NotificationIntegration.Domain.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services.Interfaces\\NotificationIntegration.Domain.Services.Interfaces.csproj"
               }
             }
           }
@@ -322,7 +336,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -332,11 +346,11 @@
         "projectUniqueName": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Infrastructure\\Service\\NoticationIntegration.Infrastructure.Service\\NoticationIntegration.Infrastructure.Service.csproj",
         "projectName": "NoticationIntegration.Infrastructure.Service",
         "projectPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Infrastructure\\Service\\NoticationIntegration.Infrastructure.Service\\NoticationIntegration.Infrastructure.Service.csproj",
-        "packagesPath": "C:\\Users\\ozkan.koylu\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Infrastructure\\Service\\NoticationIntegration.Infrastructure.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ozkan.koylu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ozkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -344,8 +358,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/lelydevops/T4CNextAPI/_packaging/t4c-classic/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -403,7 +416,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

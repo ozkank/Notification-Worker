@@ -15,6 +15,7 @@ using NoticationIntegration.Infrastructure.Service;
 using NotificationIntegration.API.Filters;
 using NotificationIntegration.API.Middlewares;
 using NotificationIntegration.API.Swagger;
+using NotificationIntegration.Domain.Object;
 using NotificationIntegration.Domain.Object.Options;
 using NotificationIntegration.Domain.Services;
 using NotificationIntegration.Domain.Services.Interfaces;
@@ -48,7 +49,7 @@ namespace NotificationIntegration.API
                 return new RabbitMQMessagingConnectionFactory(options.Value.ConnectionString);
             });
             services.AddSingleton<INotificationService, NotificationService>();
-            services.AddSingleton<IMongoRepository<NotificationDto>, MongoRepository<NotificationDto>>();
+            services.AddSingleton<INoSqlRepository<NotificationDto>, MongoRepository<NotificationDto>>();
 
             services.AddHostedService<NotificationConsumerService>();
             #endregion

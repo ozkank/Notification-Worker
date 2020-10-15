@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZLH1Ypp7iOCDx0jbMqrfFM6bpKOjB5Za/38s5HjjUESgGi1Ns0/7o9baE/E42U3nXEajXgqCTDmeKhg9pscxBg==",
+  "dgSpecHash": "6vQLuIlgLXWzELPgP4fGT1H3d9OdsTIu49sm7Z6vXSVyeFBjx6YfAapGDLmnVH5VtwDIO9O8aFycJNehB9A2Sw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services\\NotificationIntegration.Domain.Services.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ozkan.koylu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
-    "C:\\Users\\ozkan.koylu\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
-    "C:\\Users\\ozkan.koylu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512"
+    "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "C:\\Users\\ozkan\\.nuget\\packages\\mongodb.bson\\2.11.2\\mongodb.bson.2.11.2.nupkg.sha512"
   ],
   "logs": []
 }

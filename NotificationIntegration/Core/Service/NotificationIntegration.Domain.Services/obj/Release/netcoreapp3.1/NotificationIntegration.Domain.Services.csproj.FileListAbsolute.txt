@@ -1,0 +1,12 @@
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\bin\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.deps.json
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\bin\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.dll
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\bin\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.pdb
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\bin\Release\netcoreapp3.1\NotificationIntegration.Domain.Object.dll
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\bin\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.Interfaces.dll
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\bin\Release\netcoreapp3.1\NotificationIntegration.Domain.Object.pdb
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\bin\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.Interfaces.pdb
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\obj\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.csprojAssemblyReference.cache
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\obj\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\obj\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.csproj.CopyComplete
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\obj\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.dll
+C:\Projects\Git\@personal\Notification-Worker\NotificationIntegration\Core\Service\NotificationIntegration.Domain.Services\obj\Release\netcoreapp3.1\NotificationIntegration.Domain.Services.pdb

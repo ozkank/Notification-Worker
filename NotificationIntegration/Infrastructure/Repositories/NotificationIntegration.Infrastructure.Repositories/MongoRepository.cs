@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using NotificationIntegration.Domain.Object;
 using NotificationIntegration.Domain.Object.Options;
+using NotificationIntegration.Domain.Services.Interfaces;
 
 namespace NotificationIntegration.Infrastructure.Repositories
 {
-    public class MongoRepository<TDocument> : IMongoRepository<TDocument>
+    public class MongoRepository<TDocument> : INoSqlRepository<TDocument>
     where TDocument : IDocument
     {
         private readonly IMongoCollection<TDocument> _collection;

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Notification Send Message</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <h3>Welcome the notification sender app!</h3>
+
+  <p>
+    This page is calling a RESTful API in order to send a message!
+  </p>
+  <p>
+    <ion-item>
+      <ion-label>Message</ion-label>
+      <ion-input value="Enter here..."></ion-input>
+    </ion-item>
+    <button ion-button color="primary" (click)="send()">Send</button>
+  </p>
+
+</ion-content>

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1HCzbF3L3yngPPqo5qQbcd12wS69Ow3mBu/UaqWQBJKQG7As//O6M5FbDdPMWsMImCaBMZZpByrtQUA2+EuZ6A==",
+  "dgSpecHash": "87md7dehiZOc73ebDJs5AgATSwHaSQhHH9GIcghBSldq0PsCCCDSe56DPVm2foyLiducs/1HXxpxh/C1a7XK/g==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Git\\@personal\\Notification-Worker\\NotificationIntegration\\Core\\Service\\NotificationIntegration.Domain.Services.Interfaces\\NotificationIntegration.Domain.Services.Interfaces.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ozkan\\.nuget\\packages\\mongodb.bson\\2.11.2\\mongodb.bson.2.11.2.nupkg.sha512"
+  ],
   "logs": []
 }

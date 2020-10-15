@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
+using NotificationIntegration.Domain.Object;
+using NotificationIntegration.Domain.Object.Options;
+using NotificationIntegration.Domain.Services.Interfaces;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
-using NotificationIntegration.Domain.Object.Options;
-using NotificationIntegration.Infrastructure.Repositories;
-using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
 
 namespace NoticationIntegration.Infrastructure.Service
 {
@@ -19,9 +18,9 @@ namespace NoticationIntegration.Infrastructure.Service
         private IModel _channel;
         private IConnection _connection;
         private readonly NotificationOptions options;
-        private readonly IMongoRepository<NotificationDto> mongoRepository;
+        private readonly INoSqlRepository<NotificationDto> mongoRepository;
 
-        public NotificationConsumerService(RabbitMQMessagingConnectionFactory connectionFactory, IOptions<NotificationOptions> options, IMongoRepository<NotificationDto> mongoRepository)
+        public NotificationConsumerService(RabbitMQMessagingConnectionFactory connectionFactory, IOptions<NotificationOptions> options, INoSqlRepository<NotificationDto> mongoRepository)
         {
             this.mongoRepository = mongoRepository;
             this.options = options.Value;

@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Core\Domain\NotificationIntegration.Domain.Object\NotificationIntegration.Domain.Object.csproj" />
+    <ProjectReference Include="..\..\..\Core\Service\NotificationIntegration.Domain.Services.Interfaces\NotificationIntegration.Domain.Services.Interfaces.csproj" />
   </ItemGroup>
 
   <ItemGroup>
